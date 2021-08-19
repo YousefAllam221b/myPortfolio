@@ -20,7 +20,6 @@ for (element of elements)
 }
 */
 
-console.log("DID I DO IT?");
 let facebookElements= document.getElementsByClassName('facebook-item');
 for (element of facebookElements)
 {
@@ -72,6 +71,12 @@ listItems.forEach((listItem, index , array) =>
   listItem.addEventListener("click", function () {section.scrollIntoView();});
 
 });
+
+function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+
 
 
 

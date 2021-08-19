@@ -112,6 +112,7 @@
   .list-group-item
   {
     background-color: #edeeef;
+    word-wrap: break-word;
   }
   /*END*/
 
@@ -119,6 +120,11 @@
   .row
   {
     row-gap: 4em;
+  }
+
+  .row-container
+  {
+    margin-bottom: 4em;
   }
 
   .card
@@ -417,6 +423,43 @@
       {
         width: 100%!important;
       }
+      .row-container
+      {
+        margin-bottom: 0;
+      }
 
-  }
+    }
+
+  @media (max-width: 576px)
+  {
+
+    #contacts img, #contacts svg
+    {
+      height: 2em;
+      width: 2em;
+    }
+
+    .contact-icons
+    {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    #projects-info
+    {
+        width: 100%;
+        text-align: left;
+    }
+
+    .p-full-size {
+        width: 100%!important;
+        text-align: left;
+    }
+
+    .row-container
+    {
+      margin-bottom: 0;
+    }
+
+   }
   /*END*/

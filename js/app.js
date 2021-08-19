@@ -20,7 +20,7 @@ for (element of elements)
 }
 */
 
-console.log("hey");
+console.log("DID I DO IT?");
 let facebookElements= document.getElementsByClassName('facebook-item');
 for (element of facebookElements)
 {

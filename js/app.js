@@ -79,10 +79,70 @@ function insertAfter(newNode, referenceNode) {
 
 
 
+var links = [('yousef.allam221b@gmail.com'), ('https://github.com/YousefAllam221b'), ('https://www.linkedin.com/in/yousefallam221b')];
+
+
+function doTheyExist()
+{
+  var checker = document.getElementsByClassName('footer-contact');
+  if (checker.length == 0)
+  {
+    return false;
+  }
+  return true;
+}
+
+
+function addLinks()
+{
+  var footerImages = document.getElementsByClassName('contact-footer-img');
+
+  for (var i = 0; i < footerImages.length; i++)
+  {
+
+    var iElement = document.createElement('i');
+    iElement.classList.add("contact-items");
+    iElement.classList.add("footer-contact");
+    iElement.innerHTML = links[i];
+    insertAfter(iElement,footerImages[i]);
+  }
+}
+
+function footerLinks()
+{
+
+  if (x.matches)
+  {
+    if (doTheyExist())
+    {
+      var links = document.getElementsByClassName('footer-contact');
+      for (var i = 0; i < links.length; i++)
+      {
+        links[i].remove();
+      }
+    }
+  }
+  else
+  {
+
+    if (!doTheyExist())
+    {
+      addLinks();
+    }
+  }
+}
 
 
 
+var x = window.matchMedia("(max-width: 576px)")
+footerLinks(x) // Call listener function at run time
+x.addListener(footerLinks)
 
+
+
+window.onresize = function(){
+  footerLinks();
+}
 
 
 /*

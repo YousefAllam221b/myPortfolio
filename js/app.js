@@ -127,7 +127,6 @@ x.addListener(footerLinks);
 window.onresize = function(){
   footerLinks();
 }
-console.log('all done');
 
 /*
 var but = document.getElementById('but');

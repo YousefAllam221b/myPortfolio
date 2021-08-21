@@ -19,7 +19,7 @@ for (element of elements)
     element.addEventListener("click", function () {navBarPagesRedirect(text); });
 }
 */
-
+console.log('skills fixed');
 let facebookElements= document.getElementsByClassName('facebook-item');
 for (element of facebookElements)
 {

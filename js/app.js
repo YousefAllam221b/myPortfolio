@@ -1,25 +1,15 @@
-/*
-let elements = document.getElementsByClassName('navButtons');
 
-function navBarPagesRedirect(text)
-{
-  if (text == 'Contact me')
-    {
-      window.location.href =  "Contact.html";
-    }
-    else
-    {
-      window.location.href = text + ".html";
-    }
-}
 
-for (element of elements)
-{
-    let text = element.innerHTML;
-    element.addEventListener("click", function () {navBarPagesRedirect(text); });
-}
-*/
-console.log('skills fixed');
+
+
+console.log('skills fixed and tab icon and https instead of http last link');
+console.log('row skills fixed and skills content added');
+
+
+
+
+
+
 let facebookElements= document.getElementsByClassName('facebook-item');
 for (element of facebookElements)
 {
@@ -52,7 +42,6 @@ for (element of phoneElements)
 
 
 
-
 var sections = document.querySelectorAll('section');
 var navItems = document.createDocumentFragment();
 
@@ -75,7 +64,6 @@ listItems.forEach((listItem, index , array) =>
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
-
 
 
 
@@ -127,6 +115,42 @@ x.addListener(footerLinks);
 window.onresize = function(){
   footerLinks();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+let elements = document.getElementsByClassName('navButtons');
+
+function navBarPagesRedirect(text)
+{
+  if (text == 'Contact me')
+    {
+      window.location.href =  "Contact.html";
+    }
+    else
+    {
+      window.location.href = text + ".html";
+    }
+}
+
+for (element of elements)
+{
+    let text = element.innerHTML;
+    element.addEventListener("click", function () {navBarPagesRedirect(text); });
+}
+*/
+
+
 
 /*
 var but = document.getElementById('but');

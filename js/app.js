@@ -1,10 +1,5 @@
 
-
-
-
-console.log('skills fixed and tab icon and https instead of http last link');
-console.log('row skills fixed and skills content added');
-
+console.log("Hey again");
 
 
 

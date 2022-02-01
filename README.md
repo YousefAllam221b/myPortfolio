@@ -11,8 +11,6 @@
 ## General Information
 - This is Yousef Allam's Portfolio.
 - It includes my Contact Info, Skills, Certificates and my Work.
-- 
-
 
 ## Technologies Used
 - HTML
@@ -20,17 +18,5 @@
 - Bootstrap
 - Javascript
 
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-
 ## Project Status
 Project is: _complete_.
-
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
